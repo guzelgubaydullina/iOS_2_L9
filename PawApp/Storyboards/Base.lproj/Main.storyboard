@@ -646,7 +646,7 @@
         <!--Groups-->
         <scene sceneID="c6C-hI-UD2">
             <objects>
-                <navigationController id="xs2-RJ-LDK" sceneMemberID="viewController">
+                <navigationController id="xs2-RJ-LDK" customClass="AnimatedNavigationController" customModule="Paw_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Groups" image="g.circle.fill" catalog="system" id="sBg-Sf-3x4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="lku-Sk-VlV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
