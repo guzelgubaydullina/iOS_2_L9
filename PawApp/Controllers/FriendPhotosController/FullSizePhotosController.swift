@@ -101,14 +101,14 @@ class FullSizePhotosController: UIViewController {
     private func animatePhotoImageViewEnd()  {
         if currentPanGestureDirection == .left {
             let isLast = selectedPhotoIndex == photosNames.count - 1
-            if currentImageView.frame.maxX < view.center.x && !isLast {
+            if currentImageView.frame.maxX < (view.frame.size.width * 0.85) && !isLast {
                 animatePhotoSwapping()
             } else {
                 animatePhotoWithTransform(transformIdentity)
             }
         } else if currentPanGestureDirection == .right {
             let isLast = selectedPhotoIndex == 0
-            if currentImageView.frame.minX > view.center.x && !isLast {
+            if currentImageView.frame.minX > (view.frame.size.width * 0.15) && !isLast {
                 animatePhotoSwapping()
             } else {
                 animatePhotoWithTransform(transformIdentity)

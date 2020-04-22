@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Animation Controller-->
+        <!--Launch Controller-->
         <scene sceneID="yBw-mn-6QR">
             <objects>
-                <viewController id="23i-kr-Jik" customClass="AnimationController" customModule="Paw_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="23i-kr-Jik" customClass="LaunchController" customModule="Paw_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CQb-4m-vo8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -646,7 +646,7 @@
         <!--Groups-->
         <scene sceneID="c6C-hI-UD2">
             <objects>
-                <navigationController id="xs2-RJ-LDK" sceneMemberID="viewController">
+                <navigationController id="xs2-RJ-LDK" customClass="AnimatedNavigationController" customModule="Paw_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Groups" image="g.circle.fill" catalog="system" id="sBg-Sf-3x4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="lku-Sk-VlV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
@@ -766,7 +766,7 @@
         <!--Friends-->
         <scene sceneID="gdD-P8-cZ3">
             <objects>
-                <navigationController id="dL3-4b-BfO" sceneMemberID="viewController">
+                <navigationController id="dL3-4b-BfO" customClass="AnimatedNavigationController" customModule="Paw_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Friends" image="person.2.fill" catalog="system" id="3FA-cs-FIn">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>

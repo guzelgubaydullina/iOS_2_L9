@@ -1,5 +1,5 @@
 //
-//  AnimationController.swift
+//  LaunchController.swift
 //  vk_GuzelGubaydullina
 //
 //  Created by Guzel Gubaidullina on 15.04.2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AnimationController: UIViewController {
+class LaunchController: UIViewController {
     
     @IBOutlet weak var loadingView1: UIImageView!
     @IBOutlet weak var loadingView2: UIImageView!
